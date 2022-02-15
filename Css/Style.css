@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Strart Header */
+header{
+    background-color: #ecf0f1;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding: 10px;
+}
+.others{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo li .dmrs_logo{
+    height: 150px;
+    width: 150px;
+}
+.others li .home{
+    height: 80px;
+    width: 80px;
+}
+.others li .call{
+    height: 100px;
+    width: 100px;
+}
+.others li .payment{
+    height: 100px;
+    width: 100px;
+}
+/* End Header */
