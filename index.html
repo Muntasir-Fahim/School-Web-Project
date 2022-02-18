@@ -29,73 +29,53 @@
           </li>
         </div>
       </ul>
-      <!-- <img src="Image/4.png" alt="dmrs logo" style="height:150px;width:150px;margin-left:20px;">
-      <a href="file:///G:/HTML/School%20web%20page%20project/index.html">
-        <img src="Image/home.svg" alt="Home" style="height:80px;width:80px;margin-left:500px;margin-bottom:30px;">
-      </a>&emsp;
-      <a href="Image/contact.html">
-        <img src="Image/call.svg" alt="Contact" style="height:100px;width:100px;margin-bottom:10px;">
-      </a>&emsp;
-      <a href="Image/sorry.html">
-        <img src="Image/payment.svg" alt="Payment" style="height:100px;width:100px;margin-bottom:15px;">
-      </a>&emsp; -->
     </header>
-    <section>
-  		<table style="width:100%;height:500px;border-spacing:0px;">
-  			<tbody>
-  				<tr>
-  					<td style="width:65%;background-image:url('image/dmrs.png')">
-  						<!--<div class="">
-  							<img src="dmrs.jpg" alt="DMRS" style="width:100%;height:500px;">
-  						</div>-->
-  					</td>
-  					<td style="background-color:#0be881;" valign="top">
-  					  <form method="post">
-    					  <h1 style="color:orangered;text-align:center;">Send your information to ensure your admission</h1>
-    					  <div style="text-align:center;">
-    						  <label for="sname"></label>
-    						  <input type="text" id="sname" name="sname" placeholder="Enter Student Name">
-    					  </div><br>
+    <section class="dmrs_intro">
+      <form method="post" action="mailto:fmuntasir1@gmail.com" enctype="text/plain">
+        <h1>Send Your Information To Ensure Your Admission</h1>
+        <div>
+          <label for="student_name"></label>
+          <input type="text" id="student_name" name="student_name" placeholder="Enter Student Name">
+        </div><br>
 
-    					  <div style="text-align:center;">
-    						  <label for="email"></label>
-    						  <input type="email" id="email" name="email" placeholder="Parent Email Address">
-    					  </div><br>
+        <div>
+          <label for="email"></label>
+          <input type="email" id="email" name="email" placeholder="Parent Email Address">
+        </div><br>
 
-    					  <div style="text-align:center;">
-    						  <label for="number"></label>
-    						  <input type="text" id="number" name="number" placeholder="Parent Contact Number">
-    					  </div><br>
+        <div>
+          <label for="number"></label>
+          <input type="text" id="number" name="number" placeholder="Parent Contact Number">
+        </div><br>
 
-    					  <div style="text-align:center;">
-    						<input type="text" placeholder="Select city" list="city">
-    						<datalist id="city">
-    						  <option value="Satkhira">Satkhira</option>
-    						  <option value="Kaligonj" >Kaligonj</option>
-    						  <option value="Shyamnagar">Shyamnagar</option>
-    						</datalist>
-    					  </div><br>
+        <div>
+        <label for="city"></label>
+        <input type="text" id="city" name="city" placeholder="Select city" list="city">
+        <datalist id="city">
+          <option value="Satkhira">Satkhira</option>
+          <option value="Kaligonj" >Kaligonj</option>
+          <option value="Shyamnagar">Shyamnagar</option>
+        </datalist>
+        </div><br>
 
-    					  <div style="text-align:center;">
-    						<input type="text" placeholder="Select class" list="class">
-    						<datalist id="class">
-    						  <option value="SIX">SIX</option>
-    						  <option value="SEVEN" >SEVEN</option>
-    						  <option value="EIGHT">EIGHT</option>
-    						  <option value="NINE">NINE</option>
-    						  <option value="TEN">TEN</option>
-    						</datalist>
-    					  </div><br>
+        <div>
+        <label for="class"></label>
+        <input type="text" id="class" name="class" placeholder="Select class" list="class">
+        <datalist id="class">
+          <option value="SIX">SIX</option>
+          <option value="SEVEN" >SEVEN</option>
+          <option value="EIGHT">EIGHT</option>
+          <option value="NINE">NINE</option>
+          <option value="TEN">TEN</option>
+        </datalist>
+        </div><br>
 
-    					  <div style="text-align:center;">
-    						<input type="submit" value="Send">
-    					  </div>
-  					  </form>
-  					</td>
-  				</tr>
-  			</tbody>
-  		</table>
-    </section>
+        <div class="btn_class">
+        <button type="submit" class="btn">Send</button>
+        <button type="reset" class="btn">Reset</button>
+        </div>
+      </form>
+  	</section>
     <section>
       <div style="width:70%;float:left;height:400px;">
         <h1>Welcome to <br> Dr Mujib-Rubi Model High School</h1>
