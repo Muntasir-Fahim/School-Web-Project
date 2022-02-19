@@ -90,3 +90,45 @@ header ul{
 .btn:active{
     box-shadow: none;
 }
+/* End Dmrs intro */
+
+/* Start welcoming massage */
+.welcoming_mgs{
+    background-color: deepskyblue;
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transform: skew(5deg);
+    transition: .3s;
+}
+.welcoming_mgs:hover{
+    transform: scale(1.03);
+}
+.welcoming_mgs:hover .mgs{
+    transform: skew(0deg);
+}
+.welcoming_mgs:hover .photo{
+    transform: skew(0deg);
+}
+.mgs , .photo{
+    transform: skew(-5deg);
+}
+.mgs{
+    width: 60%;
+    padding: 10px;
+    color: #fff;
+}
+.mgs hr{
+    border: solid;
+    border-bottom: none;
+}
+.mgs h1{
+    text-align: center;
+    padding: 10px;
+}
+.photo{
+    width: 30%;
+}
+/* End welcoming massage */
