@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.dotted{
+    width: 15%;
+    border: dotted;
+    border-bottom: none;
+    margin: 0 auto;
+}
 /* Strart Header */
 header{
     background-color: #ecf0f1;
@@ -101,9 +107,9 @@ header ul{
     align-items: center;
     justify-content: space-around;
     transform: skew(5deg);
-    transition: .3s;
+    transition: .9s;
 }
-.welcoming_mgs:hover{
+/* .welcoming_mgs:hover{
     transform: scale(1.03);
 }
 .welcoming_mgs:hover .mgs{
@@ -111,10 +117,10 @@ header ul{
 }
 .welcoming_mgs:hover .photo{
     transform: skew(0deg);
-}
+}*/
 .mgs , .photo{
     transform: skew(-5deg);
-}
+} 
 .mgs{
     width: 60%;
     padding: 10px;
@@ -132,3 +138,31 @@ header ul{
     width: 30%;
 }
 /* End welcoming massage */
+/* Start Opportunity */
+.opportunity{
+    background-color: orange;
+    width: 98%;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: white;
+}
+.opportunity h1{
+    text-align: center;
+    padding: 10px;
+}
+.opportunit_object{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.object{
+    text-align: center;
+}
+.object img{
+    transition: all .5s;
+}
+.object:hover img{
+    transform: scale(1.1);
+}
+/* End Opportunity */
