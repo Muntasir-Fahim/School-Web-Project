@@ -100,7 +100,7 @@ header ul{
 
 /* Start welcoming massage */
 .welcoming_mgs{
-    background-color: deepskyblue;
+    background-color: #00bfff;
     width: 95%;
     margin: 10px auto;
     display: flex;
@@ -140,7 +140,7 @@ header ul{
 /* End welcoming massage */
 /* Start Opportunity */
 .opportunity{
-    background-color: orange;
+    background-color: #f77f00;
     width: 98%;
     margin: 20px auto;
     border-radius: 10px;
@@ -166,3 +166,34 @@ header ul{
     transform: scale(1.1);
 }
 /* End Opportunity */
+
+/* Start School Success */
+.school_success{
+    text-align: center;
+    background-color: rgb(42, 202, 255);
+    padding: 20px;
+    margin: 10px auto;
+    color: white;
+}
+.table_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+table{
+    border: 2px solid white;
+    border-collapse: collapse;
+    outline: 3px solid white;
+    outline-offset: 3px;
+    background-color: rgba(255, 255, 255, 0.116);
+    font-size: 1.2rem;
+
+}
+table td,th{
+    border: 1px solid white;
+    padding: 10px;
+}
+.success_intro p{
+    font-size: 3rem;
+}
+/* End School Success */
