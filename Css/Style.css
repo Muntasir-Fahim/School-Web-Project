@@ -197,3 +197,37 @@ table td,th{
     font-size: 3rem;
 }
 /* End School Success */
+/* Start Review */
+.review{
+    width: 98%;
+    margin: 10px auto;
+    text-align: center;
+    color: black;
+    background-color: white;
+    background-image: url('../Image/wave.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 10px gray;
+}
+.review_text{
+    width: 65%;
+}
+.review_photo{
+    width: 25%;
+}
+.review_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.report{
+    color: white;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.father{
+    font-weight: normal;
+    font-style: italic;
+}
+/* End Review */
