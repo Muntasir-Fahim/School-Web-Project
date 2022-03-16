@@ -57,21 +57,23 @@ header ul{
     align-items: center;
     justify-content: flex-end;
 }
-.dmrs_intro form{
+.dmrs_intro .form{
     background-color: #00000070;
     width: 25%;
+}
+.form{
     /* height: 95%; */
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0px 0px 20px 20px #8080803f , 0px 0px 40px 40px #80808041;
     margin-right: 5%;
 }
-.dmrs_intro form h1{
+.form h1{
     color: white;
     text-align: center;
     padding: 20px;
 }
-.dmrs_intro form div > input{
+.form div > input{
     text-align: center;
     font-style: italic;
     color: gray;
@@ -81,7 +83,7 @@ header ul{
     border-radius: 10px;
     border: none;
 }
-.dmrs_intro form > div{
+.form > div{
     text-align: center;
 }
 .btn{
@@ -275,3 +277,40 @@ table td,th{
     padding: 5px;
 }
 /* End Notice */
+/* Start Contact */
+.contact{
+    background-color: #f77f00;
+    margin: 10px auto;
+}
+.contact .deep_border{
+    background-color: #c96801;
+}
+.contact_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.map{
+    height: 100vh;
+    width: 50vw;
+}
+.map_iframe iframe{
+    width: 50vw;
+    height: 100vh;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_container .form form{
+    background-color: turquoise;
+}
+.textarea{
+    width: 350px;
+    border-radius: 10px;
+    resize: none;
+    text-align: center;
+    border: none;
+    font-style: italic;
+}
+/* End Contact */
