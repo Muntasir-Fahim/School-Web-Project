@@ -92,7 +92,7 @@ header ul{
     font-size: medium;
     border-radius: 20px;
     border: none;
-    box-shadow: 0 0 20px 3px rgba(255, 255, 255, 0.123);
+    box-shadow: 0 0 20px 3px rgba(255, 255, 255, 0.253);
     background-color: rgb(235, 235, 235);
 }
 .btn:active{
