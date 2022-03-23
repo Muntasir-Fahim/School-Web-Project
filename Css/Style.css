@@ -32,17 +32,14 @@ header ul{
     height: 150px;
     width: 150px;
 }
-.others li .home{
+.home,.call,.notice_board{
     height: 80px;
     width: 80px;
+    /* border-radius: 51% 25% 44% 20% / 46% 18% 47% 24% ; */
+    /* box-shadow: 0 0 20px 10px rgb(255, 255, 255); */
 }
-.others li .call{
-    height: 100px;
-    width: 100px;
-}
-.others li .payment{
-    height: 100px;
-    width: 100px;
+.home:active , .call:active , .notice_board:active{
+    border: 1px solid #ecf0f1;
 }
 /* End Header */
 
