@@ -41,6 +41,10 @@ header ul{
 .home:active , .call:active , .notice_board:active{
     border: 1px solid #ecf0f1;
 }
+.nav_intro p{
+    font-size: 2rem;
+    color: green;
+}
 /* End Header */
 
 /* Start Dmrs introduction */
