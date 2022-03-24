@@ -1,3 +1,8 @@
+:root{
+    --header_font: 'Lobster Two', cursive;;
+    --text_font: 'Merienda', cursive;
+    --regular_font: 'Roboto', sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
@@ -42,8 +47,9 @@ header ul{
     border: 1px solid #ecf0f1;
 }
 .nav_intro p{
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: green;
+    font-family: var(--header_font);
 }
 /* End Header */
 
@@ -73,10 +79,12 @@ header ul{
     color: white;
     text-align: center;
     padding: 20px;
+    font-family: var(--regular_font);
 }
 .form div > input{
     text-align: center;
     font-style: italic;
+    /* font-family: var(--text_font); */
     color: gray;
     width: 250px;
     height: 30px;
@@ -136,6 +144,12 @@ header ul{
 .mgs h1{
     text-align: center;
     padding: 10px;
+    font-family: var(--regular_font);
+}
+.mgs p{
+    font-size: 1.05rem;
+    font-family: var(--text_font);
+    padding: 1rem;
 }
 .photo{
     width: 30%;
@@ -152,6 +166,8 @@ header ul{
 .opportunity h1{
     text-align: center;
     padding: 10px;
+    font-family: var(--regular_font);
+    /* letter-spacing: 0.2rem; */
 }
 .opportunit_object{
     display: flex;
@@ -161,6 +177,7 @@ header ul{
 }
 .object{
     text-align: center;
+    font-family: var(--text_font);
 }
 .object img{
     transition: all .5s;
@@ -177,6 +194,9 @@ header ul{
     padding: 20px;
     margin: 10px auto;
     color: white;
+}
+.school_success h1{
+    font-family: var(--regular_font);
 }
 .table_container{
     display: flex;
@@ -195,9 +215,11 @@ table{
 table td,th{
     border: 1px solid white;
     padding: 10px;
+    font-family: var(--text_font);
 }
 .success_intro p{
     font-size: 3rem;
+    font-family: var(--text_font);
 }
 /* End School Success */
 /* Start Review */
@@ -225,6 +247,11 @@ table td,th{
 }
 .review_text h1{
     color: white;
+    font-family: var(--regular_font);
+}
+.review_text p{
+    font-family: var(--regular_font);
+    font-size: 0.9rem;
 }
 .report{
     color: white;
@@ -250,6 +277,10 @@ table td,th{
     align-items: center;
     justify-content: center;
 }
+.deep_border h1{
+    font-family: var(--header_font);
+    letter-spacing: 0.2rem;
+}
 .notice_desc{
     display: flex;
     justify-content: space-around;
@@ -264,6 +295,7 @@ table td,th{
     padding: 10px;
     color: white;
     border-right: 2px solid white;
+    font-family: var(--regular_font);
 }
 .part_2{
     width: 50%;
@@ -272,6 +304,7 @@ table td,th{
     align-items: center;
     padding: 10px;
     color: white;
+    font-family: var(--regular_font);
     border-left: 2px solid white;
 }
 .part_1 ul li, .part_2 ul li{
@@ -334,6 +367,8 @@ footer{
 .text p{
     color: white;
     font-style: italic;
+    font-family: var(--text_font);
+    font-size: 0.8rem;
 }
 .up{
     width: 50px;
