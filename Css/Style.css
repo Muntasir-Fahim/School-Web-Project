@@ -86,11 +86,14 @@ header ul{
     font-style: italic;
     /* font-family: var(--text_font); */
     color: gray;
-    width: 250px;
     height: 30px;
     padding: 10px;
     border-radius: 10px;
     border: none;
+    outline: none;
+}
+.f1 div > input{
+    width: 250px;
 }
 .form > div{
     text-align: center;
@@ -336,8 +339,11 @@ table td,th{
     justify-content: center;
     align-items: center;
 }
-.form_container .form form{
-    background-color: turquoise;
+.f2 div > input{
+    width: 350px;
+}
+.f2 div > input:focus{
+    outline: 1px solid deepskyblue;
 }
 .textarea{
     width: 350px;
@@ -346,6 +352,9 @@ table td,th{
     text-align: center;
     border: none;
     font-style: italic;
+}
+.textarea:focus{
+    outline: 1px solid deepskyblue;
 }
 /* End Contact */
 /* Start Footer */
