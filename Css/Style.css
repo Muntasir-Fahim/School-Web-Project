@@ -185,6 +185,7 @@ header ul{
 }
 .object img{
     transition: all .5s;
+    width: 4.5rem
 }
 .object:hover img{
     transform: scale(1.1);
@@ -243,6 +244,9 @@ table td,th{
 }
 .review_photo{
     width: 25%;
+}
+.review_photo img{
+    width: 11.5rem;
 }
 .review_container{
     display: flex;
