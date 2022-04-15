@@ -11,9 +11,9 @@
 }
 .dotted{
     width: 10%;
-    border: 4px dotted white;
+    border: 0.25rem dotted white;
     border-bottom: none;
-    margin: 5px auto;
+    margin: 0.3rem auto;
 }
 /* Strart Header */
 header{
@@ -26,7 +26,7 @@ header ul{
     align-items: center;
 }
 .logo{
-    padding: 10px;
+    padding: 0.6rem;
 }
 .others{
     width: 50%;
@@ -35,17 +35,17 @@ header ul{
     align-items: center;
 }
 .logo li .dmrs_logo{
-    height: 150px;
-    width: 150px;
+    height: 9rem;
+    width: 9rem;
 }
 .home,.call,.notice_board{
-    height: 80px;
-    width: 80px;
+    height: 4.5rem;
+    width: 4.5rem;
     /* border-radius: 51% 25% 44% 20% / 46% 18% 47% 24% ; */
-    /* box-shadow: 0 0 20px 10px rgb(255, 255, 255); */
+    /* box-shadow: 0 0 1.12rem 0.6rem rgb(255, 255, 255); */
 }
 .home:active , .call:active , .notice_board:active{
-    border: 1px solid #ecf0f1;
+    border: 0.06rem solid #ecf0f1;
 }
 .nav_intro p{
     font-size: 2.3rem;
@@ -71,15 +71,15 @@ header ul{
 }
 .form{
     /* height: 95%; */
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0px 0px 20px 20px #8080803f , 0px 0px 40px 40px #80808041;
+    border-radius: 0.6rem;
+    padding: 0.6rem;
+    box-shadow: 0rem 0rem 1.12rem 1.12rem #8080803f , 0rem 0rem 2.3rem 2.3rem #80808041;
     margin-right: 5%;
 }
 .form h1{
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 1.12rem;
     font-family: var(--regular_font);
 }
 .form div > input{
@@ -87,25 +87,25 @@ header ul{
     font-style: italic;
     /* font-family: var(--text_font); */
     color: gray;
-    height: 30px;
-    padding: 10px;
-    border-radius: 10px;
+    height: 1.7rem;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
     border: none;
     outline: none;
 }
 .f1 div > input{
-    width: 250px;
+    width: 14rem;
 }
 .form > div{
     text-align: center;
 }
 .btn{
-    height: 40px;
-    width: 125px;
+    height: 2.23rem;
+    width: 7rem;
     font-size: medium;
-    border-radius: 20px;
+    border-radius: 1.12rem;
     border: none;
-    box-shadow: 0 0 20px 3px rgba(255, 255, 255, 0.253);
+    box-shadow: 0 0 1.12rem 0.17rem rgba(255, 255, 255, 0.253);
     background-color: rgb(235, 235, 235);
 }
 .btn:active{
@@ -117,7 +117,7 @@ header ul{
 .welcoming_mgs{
     background-color: #00bfff;
     width: 95%;
-    margin: 10px auto;
+    margin: 0.6rem auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -138,7 +138,7 @@ header ul{
 } 
 .mgs{
     width: 60%;
-    padding: 10px;
+    padding: 0.6rem;
     color: #fff;
 }
 .mgs hr{
@@ -147,7 +147,7 @@ header ul{
 }
 .mgs h1{
     text-align: center;
-    padding: 10px;
+    padding: 0.6rem;
     font-family: var(--regular_font);
 }
 .mgs p{
@@ -163,13 +163,13 @@ header ul{
 .opportunity{
     background-color: #f77f00;
     width: 98%;
-    margin: 20px auto;
-    border-radius: 10px;
+    margin: 1.12rem auto;
+    border-radius: 0.6rem;
     color: white;
 }
 .opportunity h1{
     text-align: center;
-    padding: 10px;
+    padding: 0.6rem;
     font-family: var(--regular_font);
     /* letter-spacing: 0.2rem; */
 }
@@ -177,7 +177,7 @@ header ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    padding: 0.6rem;
 }
 .object{
     text-align: center;
@@ -195,8 +195,8 @@ header ul{
 .school_success{
     text-align: center;
     background-color: #00bfff;
-    padding: 20px;
-    margin: 10px auto;
+    padding: 1.12rem;
+    margin: 0.6rem auto;
     color: white;
 }
 .school_success h1{
@@ -208,17 +208,17 @@ header ul{
     align-items: center;
 }
 table{
-    border: 2px solid white;
+    border: 0.12 solid white;
     border-collapse: collapse;
-    outline: 3px solid white;
-    outline-offset: 3px;
+    outline: 0.17rem solid white;
+    outline-offset: 0.17rem;
     background-color: rgba(255, 255, 255, 0.116);
     font-size: 1.2rem;
 
 }
 table td,th{
-    border: 1px solid white;
-    padding: 10px;
+    border: 0.06rem solid white;
+    padding: 0.6rem;
     font-family: var(--text_font);
 }
 .success_intro p{
@@ -229,14 +229,14 @@ table td,th{
 /* Start Review */
 .review{
     width: 98%;
-    margin: 10px auto;
+    margin: 0.6rem auto;
     text-align: center;
     color: black;
     background-color: white;
     background-image: url('../Image/wave.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 0.6rem 0.6rem 0.6rem gray;
 }
 .review_text{
     width: 65%;
@@ -289,16 +289,16 @@ table td,th{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 1.12rem;
 }
 .part_1{
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 0.6rem;
     color: white;
-    border-right: 2px solid white;
+    border-right: 0.12 solid white;
     font-family: var(--regular_font);
 }
 .part_2{
@@ -306,19 +306,19 @@ table td,th{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 0.6rem;
     color: white;
     font-family: var(--regular_font);
-    border-left: 2px solid white;
+    border-left: 0.12 solid white;
 }
 .part_1 ul li, .part_2 ul li{
-    padding: 5px;
+    padding: 0.28rem;
 }
 /* End Notice */
 /* Start Contact */
 .contact{
     background-color: #f77f00;
-    margin: 10px auto;
+    margin: 0.6rem auto;
 }
 .contact .deep_border{
     background-color: #c96801;
@@ -341,21 +341,21 @@ table td,th{
     align-items: center;
 }
 .f2 div > input{
-    width: 350px;
+    width: 19.45rem;
 }
 .f2 div > input:focus{
-    outline: 1px solid deepskyblue;
+    outline: 0.06rem solid deepskyblue;
 }
 .textarea{
-    width: 350px;
-    border-radius: 10px;
+    width: 19.45rem;
+    border-radius: 0.6rem;
     resize: none;
     text-align: center;
     border: none;
     font-style: italic;
 }
 .textarea:focus{
-    outline: 1px solid deepskyblue;
+    outline: 0.06rem solid deepskyblue;
 }
 /* End Contact */
 /* Start Footer */
@@ -366,7 +366,7 @@ footer{
     align-items: center;
 }
 .foot_logo{
-   width: 100px;
+   width: 5.6rem;
    height: auto;
    background-color: white;
 }
@@ -381,14 +381,14 @@ footer{
     font-size: 0.8rem;
 }
 .up{
-    width: 50px;
+    width: 2.8rem;
     height: auto;
 }
 .up img{
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    box-shadow: 0px 0px 35px 10px rgba(255, 255, 255, 0.384);
+    box-shadow: 0rem 0rem 1.95rem 0.6rem rgba(255, 255, 255, 0.384);
 }
 .up img:active{
     box-shadow: none;
