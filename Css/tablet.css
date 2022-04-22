@@ -1,0 +1,43 @@
+.nav_intro p{
+    font-size: 2rem;
+}
+.home,.call,.notice_board{
+    height: 4rem;
+    width: 4rem;
+}
+.welcoming_mgs{
+    transform: none;
+    width: 100%;
+}
+.photo{
+    width: 20rem;
+}
+.mgs , .photo{
+    transform: none;
+}
+.success_intro{
+    display: none;
+}
+.review{
+    background-image: none;
+    background-color: #f77f00;
+    box-shadow: none;
+}
+.contact_content{
+    flex-direction: column;
+    align-items: initial;
+}
+.map{
+    width: 100vw;
+    height: 50vh;
+}
+.map_object object{
+    width: 100vw;
+    height: 50vh;
+}
+.con2{
+    margin: 2rem auto;
+}
+.contact{
+    margin: 0rem;
+}
